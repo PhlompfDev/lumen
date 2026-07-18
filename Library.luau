@@ -30,7 +30,7 @@
 --     top. The Ring must be sprung by hand alongside GroupTransparency; see
 --     fadeResultsChrome().
 
-local spr = require(script.Parent.spr)
+local spr = loadstring(game:HttpGet("https://raw.githubusercontent.com/nyzuu/SprLib/refs/heads/main/spr.lua"))()
 
 -- ================================================================ constants
 
